@@ -1,0 +1,232 @@
+Map<String, dynamic> currentUser = {
+  "username": "Diyar Jahbe",
+  "email": "diyar@gmail.com",
+  "password": "12345678",
+};
+
+List<Map<String, dynamic>> accounts = [
+  {
+    "username": "Diyar",
+    "email": "diyar@gmail.com",
+    "password": "12345678",
+  },
+  {
+    "username": "Shadyar",
+    "email": "shadyar@gmail.com",
+    "password": "12121212",
+  },
+  {
+    "username": "Aren",
+    "email": "aren@gmail.com",
+    "password": "12121212",
+  },
+  {
+    "username": "Hevar",
+    "email": "hevar@gmail.com",
+    "password": "12121212",
+  },
+  {
+    "username": "Arkan",
+    "email": "arkan@gmail.com",
+    "password": "12121212",
+  },
+];
+
+List<Map<String, dynamic>> basketProducts = [
+  {
+    "name": "Banana",
+    "imgPath": "assets/images/products/banana.png",
+    "details": "New And Fresh",
+    "price": 1500,
+    "category": "Fruits",
+    "isTrending": true,
+    "quantity": 0,
+    "totalPrice": 1500,
+  },
+];
+
+List<Map<String, dynamic>> categories = [
+  {
+    "name": "Milk",
+    "imgPath": "assets/images/categories/milk.png",
+    "discount": 15,
+    "isTop": false,
+  },
+  {
+    "name": "Coffee",
+    "imgPath": "assets/images/categories/coffee.png",
+    "discount": 30,
+    "isTop": false,
+  },
+  {
+    "name": "Meat",
+    "imgPath": "assets/images/categories/meat.png",
+    "discount": 4,
+    "isTop": true,
+  },
+  {
+    "name": "Drinks",
+    "imgPath": "assets/images/categories/drinks.png",
+    "discount": 10,
+    "isTop": false,
+  },
+  {
+    "name": "Fruits",
+    "imgPath": "assets/images/categories/fruits.png",
+    "discount": 13,
+    "isTop": true,
+  },
+  {
+    "name": "Greens",
+    "imgPath": "assets/images/categories/greens.png",
+    "discount": 20,
+    "isTop": true,
+  },
+  {
+    "name": "Snacks",
+    "imgPath": "assets/images/categories/snacks.png",
+    "discount": 10,
+    "isTop": true,
+  },
+  {
+    "name": "Protein",
+    "imgPath": "assets/images/categories/protein.png",
+    "discount": 25,
+    "isTop": false,
+  },
+  {
+    "name": "Bread",
+    "imgPath": "assets/images/categories/bread.png",
+    "discount": 19,
+    "isTop": false,
+  },
+  {
+    "name": "Seafood",
+    "imgPath": "assets/images/categories/seafood.png",
+    "discount": 18,
+    "isTop": false,
+  },
+];
+
+List<Map<String, dynamic>> products = [
+  {
+    "name": "Watermelon",
+    "imgPath": "assets/images/products/watermelon.png",
+    "details": "full of water😋",
+    "price": 750,
+    "category": "Fruits",
+    "isTrending": true,
+  },
+  {
+    "name": "Chips",
+    "imgPath": "assets/images/products/chips.png",
+    "details": "crunchy and tasty",
+    "price": 500,
+    "category": "Snacks",
+    "isTrending": true,
+  },
+  {
+    "name": "Coffee",
+    "imgPath": "assets/images/products/coffee.png",
+    "details": "Order one and get one FREE",
+    "price": 1000,
+    "category": "Coffee",
+    "isTrending": true,
+  },
+  {
+    "name": "Milk",
+    "imgPath": "assets/images/products/milk.png",
+    "details": "Taste Original Milk  ",
+    "price": 1500,
+    "category": "Milk",
+    "isTrending": true,
+  },
+  {
+    "name": "Neutonic",
+    "imgPath": "assets/images/products/neutonic.png",
+    "details": " tasty  as can be ! ",
+    "price": 1000,
+    "category": "Drinks",
+    "isTrending": true,
+  },
+  {
+    "name": "Pepsi",
+    "imgPath": "assets/images/products/pepsi.png",
+    "details": "Original ",
+    "price": 500,
+    "category": "Drinks",
+    "isTrending": true,
+  },
+  {
+    "name": "Redbull",
+    "imgPath": "assets/images/products/redbull.png",
+    "details": "Buy And Get Free Energy",
+    "price": 2500,
+    "category": "Drinks",
+    "isTrending": true,
+  },
+  {
+    "name": "Kinder",
+    "imgPath": "assets/images/products/kinder.png",
+    "details": "sweety ",
+    "price": 250,
+    "category": "Snacks",
+    "isTrending": true,
+  },
+  {
+    "name": "Banana",
+    "imgPath": "assets/images/products/banana.png",
+    "details": "Food Details",
+    "price": 1500,
+    "category": "Fruits",
+    "isTrending": true,
+  },
+  {
+    "name": "Broccoli",
+    "imgPath": "assets/images/products/broccoli.png",
+    "details": "Buy and Get Free Protiens",
+    "price": 1500,
+    "category": "Greens",
+    "isTrending": true,
+  },
+  {
+    "name": "Lemon",
+    "imgPath": "assets/images/products/lemon.png",
+    "details": "Acidic Sour Lemon Fruit",
+    "price": 750,
+    "category": "Fruits",
+    "isTrending": true,
+  },
+  {
+    "name": "Orange",
+    "imgPath": "assets/images/products/orange.png",
+    "details": "Sweet Orange Fruit",
+    "price": 1000,
+    "category": "Fruits",
+    "isTrending": true,
+  },
+  {
+    "name": "Yogurt",
+    "imgPath": "assets/images/products/yogurt.png",
+    "details": "Orginal From  the Farm ",
+    "price": 3500,
+    "category": "Milk",
+    "isTrending": false,
+  },
+  {
+    "name": "Salmon",
+    "imgPath": "assets/images/products/salmon.png",
+    "details": "Full of Vitamons and Protiens",
+    "price": 5500,
+    "category": "Seafood",
+    "isTrending": false,
+  },
+  {
+    "name": "Apple",
+    "imgPath": "assets/images/products/apple.png",
+    "details": "Tasty Apple From Orchards  ",
+    "price": 1000,
+    "category": "Fruits",
+    "isTrending": false,
+  },
+];
