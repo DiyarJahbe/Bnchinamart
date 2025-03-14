@@ -12,7 +12,7 @@ class BnchinaMartApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Bnchina Mart App',
+      title: 'Bnchina Mart Ap',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: primaryColor),
